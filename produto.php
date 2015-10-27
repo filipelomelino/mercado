@@ -164,9 +164,9 @@
             </div>
             <div class="col-md-1">
 
-                
-                
-                
+
+
+
             </div>
             <div class="col-md-1">
             </div>
@@ -184,6 +184,10 @@
         <div class="container" style="margin-top:15px">
 
             <!-- Container Novos -->
+
+            <div id="resp" style="display: none"> <?php // class="borda-sombra well oculto">   ?>
+                carregando........
+            </div>
 
             <div class="fundo_tabela_produto" id="div_novo" style="display: none;">
 
