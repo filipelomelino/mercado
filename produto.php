@@ -113,10 +113,8 @@
             </div>
 
             <div class="col-md-1">
-                
+
                 <?php
-                
-                
                 require_once './admin/refer.php';
                 $refer = new refer;
 
@@ -144,10 +142,9 @@
                         ?> 
 
                         <option value=<?= $row['modelo']; ?>> <?= $row['modelo']; ?></option>
-                        
+
                         <?php
                     endwhile;
-                    
                     ?>
                 </select>
 
@@ -166,10 +163,10 @@
             <div class="col-md-1">
             </div>
             <div class="col-md-1">
-              
-                
-                
 
+                
+                
+                
             </div>
             <div class="col-md-1">
             </div>
@@ -188,13 +185,13 @@
 
             <!-- Container Novos -->
 
-            <div class="fundo_tabela_produto" id="div_novo" >
+            <div class="fundo_tabela_produto" id="div_novo" style="display: none;">
 
                 <?php
                 require_once './admin/refer.php';
                 $refer = new refer;
-                
-                
+
+
 
                 $mysql = mysql_connect('localhost', $refer->dbuser, $refer->dbpass);
                 if (!$mysql) {
@@ -235,7 +232,6 @@
                 $query = 'SELECT * FROM trator where novo = 1';
                 $result = mysql_query($query);
                 $totalRows = mysql_result($result);
-                
                 ?>
 
 
@@ -503,11 +499,11 @@
                 </table>
             </div>
             <!-- Fim Container Usados -->
-            
-            
-            
-            
-            
+
+
+
+
+
 
             <div class="row sobre" id="sobre">
                 <div class="col-md-3">

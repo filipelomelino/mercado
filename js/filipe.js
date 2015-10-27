@@ -12,7 +12,7 @@ function passarVariavelJQueryParaPHP(novo, tipo){
     alert(tipo);
     $.ajax({
         type      : 'post', 
-        url       : 'produto_list.php', 
+        url       : 'listprodutos.php', 
         data      : data, 
         dataType  : 'html', 
         success   : function(xhr){
@@ -34,7 +34,7 @@ $('#s_novo').change(
                var novo =  $('#s_novo option:selected').val();
                
                passarVariavelJQueryParaPHP(novo, tipo);
-            
+               $.post('listprodutos.php');
         }
 );
 
@@ -45,6 +45,7 @@ $('#tipo').change(
                var novo =  $('#s_novo option:selected').val();
                
                passarVariavelJQueryParaPHP(novo, tipo);
+               $.post('listprodutos.php');
             
         }
 );
