@@ -1,0 +1,138 @@
+.fundo_tabela_produto{
+    
+    background-color: #CFCFCF;
+    
+}
+
+.linha_tabela_destaque{
+    
+    background-color: white;
+    
+}
+
+.linha2_tabela_destaque{
+    
+    background-color: #CFCFCF;
+    
+}
+
+
+
+.linha3_tabela_destaque{
+    
+    background-color: #004B15;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.texto_bola{
+    
+    font-size: 18px;
+    color: #629100;
+    font-weight: bold;
+    padding-left: 19%;
+    padding-top: 5%;
+    
+}
+
+#thumbDestaque{
+    padding: 5px;
+    background-color: white;
+    border: 1px;
+}
+
+#parceiros2{   
+    padding: 10px;
+    height: 140px;  
+}
+
+#imgparceirosaltura{
+    height: 100%;
+    left:50%;
+    margin-left:12%;
+    margin-top: 5%;
+}
+
+#imgparceiroslargura{
+    width: 100%;
+    margin-top: 12%;
+}
+
+#busca{
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+#msn{
+    padding: 20px;
+    padding-left: 80px;
+}
+
+.destaque{
+    background-color: #75b500;  
+}
+
+
+#destaque{
+
+    padding: 21px !important;
+    padding-right: 55px !important;
+    padding-left: 55px !important;
+
+}
+
+.titulodestaque{
+
+    background-color:  #629100;
+    height: 40px;
+    font-size: 20px;
+    color: white;  
+}
+
+
+.respiro{
+    
+    padding-top: 40px;   
+
+}
+
+.tituloparceiros{
+
+    background-color:  #615d58;
+    height: 40px;
+    font-size: 20px;
+    color: white;  
+}
+
+
+.parceiros{
+
+    background-color: #746856;
+    height: 300px;
+    
+}
+
+.sobre{
+    
+    background-color: dimgrey;
+    color: white;
+    height: 330px;
+
+}
+
+#sobre{
+    
+    padding: 20px !important;
+    padding-right: 55px !important;
+    padding-left: 55px !important;
+    padding-bottom: 20px !important;
+    
+}
+
+.sombra{
+    
+    box-shadow: 12px 15px 23px #746856;
+
+}

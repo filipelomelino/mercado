@@ -1,0 +1,10 @@
+/*-----------------------------------------------------
+ * acima de 800px  - Renato Gravino Neto 2015-08-27
+ * @media (min-width:800px) {  }
+ *------------------------------------------------------*/
+body {
+  background: #fff;
+}
+.carousel {
+  margin-top: -20px;
+}

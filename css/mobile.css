@@ -1,0 +1,7 @@
+body {
+  background: #fff;
+/*- background: url('../images/fundo-mobi.png') no-repeat fixed; -*/
+}
+.carousel {
+  display: none;
+}

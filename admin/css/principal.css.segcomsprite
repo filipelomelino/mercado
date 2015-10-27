@@ -1,0 +1,44 @@
+/*-
+ * CSS personalizado para webplanner
+ * Agencia mouse
+ * By Renato Gravino Neto
+ * 2012-09-04 update 2012-09-04
+--------------------------------------------*/
+/*- sprite -*/
+/*-
+#menu a[class*="spt-min-"]{
+  background:url("../img/sprite.png") left top no-repeat;
+   background-size:20px 20px;
+   border:1px solid red;
+   padding-left:25px
+}
+#menu a.spt-min-cli {
+   background-position: 0px 0px;
+   background:url("../img/sprite.png") left top no-repeat;
+   background-size:20px 20px;
+}
+#menu a .spt-min-cli-add {
+   background-position: -20px 0px;
+}
+#menu a .spt-min-procura {
+   background-position: -40px 0px;
+}
+-*/
+
+#menu li a { background: url(../img/spritestst.jpg) no-repeat;
+ display: block;
+  width: 120px;
+  height: 60px;
+  }/* define para cada item a posição em que o sprite está na
+imagem */
+
+#menu li .home { background-position: 0px 0px; }
+#menu li .home:hover { background-position: 0px -60px; }
+#menu li .textos { background-position: 120px 0px; }
+#menu li .textos:hover { background-position: 120px -60px; }
+#menu li .contato { background-position: 240px 0px; }
+#menu li .contato:hover { background-position: 240px -60px; }
+
+
+
+
